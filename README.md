@@ -3,9 +3,9 @@
 Tests
 - [x] Uzsākts
 - [ ] Izdomāti 10 jautājumi
-- [ ] Iespēja izvēlēties atbildi
+- [x] Iespēja izvēlēties atbildi
 - [ ] 4 atbilžu varianti
-- [ ] Tūlītējs atbildes novērtējums
+- [x] Tūlītējs atbildes novērtējums
 - [ ] Pareizo atbilžu skaits
 
 Testēšana

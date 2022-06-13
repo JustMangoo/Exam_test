@@ -14,20 +14,30 @@ public class theTest {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int punkti=0;
+		int punkti=0, i=0;
 		String atbilde, pareizi;
+		
+		while(i<1) {
+		String[][] jaut = 
+			{{"1. Kāda ir galvenā atšķirība starp While un Do... While?","Garāks pieraksts","Nosacījumu pārbauda beigās","Mazāks izpildes laiks","Neviens","B"},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}};
 		
 		System.out.println("\t-Tests par Do... While-\n(Izvēlies vienu pareizu atbildi )");
 		
-		//Jautājums 1
-		System.out.println("\n\n 1. Kāda ir galvenā atšķirība starp While un Do.. While?"
-						+"\nA) Garāks pieraksts"
-						+"\nB) Nosacījumu pārbauda beigās"
-						+"\nC) Mazāks izpildes laiks"
-						+"\nD) Neviens");
-		pareizi = "B";
 		System.out.print("Atbilde: "); atbilde = scan.next().toUpperCase();
-		punkti = parbaude(punkti, atbilde, pareizi);
+		punkti = parbaude(punkti, atbilde, jaut[i][5]);
+		i++;
+		}
+		
+		System.out.println("Pareizi atbildēti "+punkti+"/10");
 		
 		scan.close();
 
