@@ -10,5 +10,5 @@ Tests
 
 Testēšana
 - [x] Uzsākts
-- [ ] 20 testpiemēri
-- [ ] Aizpildīts testēšanas žurnāls
+- [x] 20 testpiemēri
+- [x] Aizpildīts testēšanas žurnāls
